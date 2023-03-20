@@ -12,12 +12,7 @@ import {
     Typography,
     useTheme,
 } from '@mui/material';
-import {
-    SettingsOutlined,
-    ChevronLeft,
-    ChevronLeftOutlined,
-    ChevronRightOutlined,
-} from '@mui/icons-material';
+import { SettingsOutlined, ChevronLeft, ChevronRightOutlined } from '@mui/icons-material';
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import FlexBetween from './FlexBetween';
