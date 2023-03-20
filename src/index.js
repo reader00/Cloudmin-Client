@@ -8,8 +8,6 @@ import { Provider } from 'react-redux';
 import { setupListeners } from '@reduxjs/toolkit/query';
 import { api } from 'state/api';
 
-console.log(process.env);
-
 const store = configureStore({
     reducer: {
         global: globalReducer,
