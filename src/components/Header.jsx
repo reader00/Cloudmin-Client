@@ -1,4 +1,3 @@
-import { TwentyTwoMpOutlined } from '@mui/icons-material';
 import { Typography, Box, useTheme } from '@mui/material';
 import React from 'react';
 
