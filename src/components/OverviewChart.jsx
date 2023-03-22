@@ -103,6 +103,7 @@ const OverviewChart = ({ isDashboard = false, view }) => {
             }}
             axisLeft={{
                 orient: 'left',
+                tickValues: isDashboard ? 7 : undefined,
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,

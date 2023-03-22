@@ -35,7 +35,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
                 textAnchor="middle"
                 dominantBaseline="central"
                 style={{
-                    fontSize: '1rem',
+                    fontSize: isDashboard ? '0.7rem' : '1rem',
                     fontWeight: 600,
                     color: `${theme.palette.secondary[400]}`,
                     zIndex: 999,
